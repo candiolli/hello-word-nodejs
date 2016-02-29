@@ -12,3 +12,8 @@ http.createServer((req, res) => {
 }).listen(port, hostname, () => {
   	console.log(`Server running at http://${hostname}:${port}/`);
 });
+
+//Chamando modulo
+var modulo = require('./module/mod1');
+
+modulo('Silas');

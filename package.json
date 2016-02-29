@@ -1,0 +1,14 @@
+{
+	"name" : "controle_agenda_evento",
+	"description" : "Controlar agenda de eventos",
+	"author" : {
+		"name":"Silas",
+		"email":"silasca@gmail.com"
+	},
+	"version":"1.0.0",
+	"private":true,
+	"dependencies":{
+		"mongoose-master":"*"
+	}
+
+}
